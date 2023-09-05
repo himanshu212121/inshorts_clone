@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const getNews=async()=>{
-    const url='https://inshorts-17im.onrender.com';
+    const url='https://inshorts-zj6u.onrender.com';
     try{
       return await axios.get(`${url}/news`)
     }catch(error){
